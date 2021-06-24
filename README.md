@@ -1,34 +1,34 @@
 # Renamer-Bot
-I think this repo gonna become one of the best renamer open source 🥰.
+This is a renamer bot for groups😉
 
 Please Give a ⭐ if you like this repo and also try following me for more best open source codes<br><br>
-[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes/blue?icon=github)](https://github.com/Ns-Bots/TG-RENAMER-BOT)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes/blue?icon=github)](https://github.com/Ns-Bots/TG-RENAMER-BOT/tree/For-Group)
 [![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/Ns_AnoNymouS)
 [![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/Ns_AnoNymouS)
 
 ## Mapping
-[Deploy to Heroku 🗳](https://github.com/Ns-Bots/TG-RENAMER-BOT#deploy-to-heroku-)
+[Deploy to Heroku 🗳](https://github.com/Ns-Bots/TG-RENAMER-BOT/tree/For-Group#deploy-to-heroku-)
 
-[Bot Features 🔥](https://github.com/Ns-Bots/TG-RENAMER-BOT#bot-features-)
+[Bot Features 🔥](https://github.com/Ns-Bots/TG-RENAMER-BOT/tree/For-Group#bot-features-)
 
-[Required Vars 💥](https://github.com/Ns-Bots/TG-RENAMER-BOT#required-vars-)
+[Required Vars 💥](https://github.com/Ns-Bots/TG-RENAMER-BOT/tree/For-Group#required-vars-)
 
-[Optional Vars 💬](https://github.com/Ns-Bots/TG-RENAMER-BOT#optional-vars-)
+[Optional Vars 💬](https://github.com/Ns-Bots/TG-RENAMER-BOT/tree/For-Group#optional-vars-)
 
-[Available Commands 🤖](https://github.com/Ns-Bots/TG-RENAMER-BOT#available-commands-)
+[Available Commands 🤖](https://github.com/Ns-Bots/TG-RENAMER-BOT/tree/For-Group#available-commands-)
 
-[Dev 🧑‍💻](https://github.com/Ns-Bots/TG-RENAMER-BOT#dev-)
+[Dev 🧑‍💻](https://github.com/Ns-Bots/TG-RENAMER-BOT/tree/For-Group#dev-)
 
-[TODO 🤧](https://github.com/Ns-Bots/TG-RENAMER-BOT#todo-)
-
-[Thanks And Credits 🎉](https://github.com/Ns-Bots/TG-RENAMER-BOT#thanks-and-credits-)
+[Thanks And Credits 🎉](https://github.com/Ns-Bots/TG-RENAMER-BOT/tree/For-Group#thanks-and-credits-)
 
 ## Deploy to Heroku 🗳
 Press the following button to deploy in heroku.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ns-Bots/TG-RENAMER-BOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ns-Bots/TG-RENAMER-BOT/tree/For-Group)
 
 ## Bot Features 🔥
+- Support only in Group.
+
 - Renaming Telegram files as file or video.
 
 - Trace Channel to track the users what they are doing with your bot.
@@ -53,6 +53,7 @@ Press the following button to deploy in heroku.
 
 - `OWNER_ID:` Your Telegram user id, Get this value from [@FileStore_Nsbot](https://telegram.dog/FileStore_Nsbot)
 
+- `AUTH_GROUP:` Your Telegram group id in which bot should work.
 
 ## Optional Vars 💬
 - `AUTH_USERS:` List of Auth User IDs separated by whitespace and who had right to use admin commands.
@@ -72,7 +73,9 @@ Press the following button to deploy in heroku.
 ## Available Commands 🤖
 ```
 start - check whether bot is alive or not
+rename - reply to the media with new name
 mode - change video upload mode to file or video
+savethumbnail - reply to a photo to save as permanent thumbnail 
 showthumbnail - to check permanent thumbnail
 deletethumbnail - to delete the permanent thumbnail
 help - know how to use the bot
@@ -91,11 +94,6 @@ login - (when password is given) to login to bot
 <a href="https://youtube.com/channel/UC9NnqJ63aSzv457iUMM06vQ"><img src="https://img.shields.io/badge/YouTube-Channel-FF3333.svg?logo=youtube&logoColor=FF3333"></a>
 <p align="left">
 </p>
-
-## TODO 🤧
-- [ ] Adding broadcast command 
-- [ ] Adding ban and unban commands
-- [ ] Increasing error handlers
 
 ## Thanks And Credits 🎉
 [SpEcHiDe](https://github.com/SpEcHiDe) for his [AnyDlBot](https://github.com/SpEcHiDe/AnyDLBot)
